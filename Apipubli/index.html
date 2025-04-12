@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Busca de Animes e Waifus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Busque seu Anime ou Surpresa Waifu!</h1>
+    
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Digite o nome do anime">
+      <select id="typeFilter">
+        <option value="">Todos os tipos</option>
+        <option value="tv">TV</option>
+        <option value="movie">Filme</option>
+        <option value="ova">OVA</option>
+        <option value="special">Especial</option>
+      </select>
+      <button id="searchBtn">Buscar</button>
+      <button id="randomBtn">Surpresa Waifu</button>
+    </div>
+
+    <div id="waifuContainer" class="waifu"></div>
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
